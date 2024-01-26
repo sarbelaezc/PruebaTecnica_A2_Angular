@@ -1,0 +1,6 @@
+<h2>Categorías de Cocteles</h2>
+<ul>
+  <li *ngFor="let categoria of categorias">
+    <a [routerLink]="['/modulo2', categoria]">{{ categoria.strCategory }}</a>
+  </li>
+</ul>

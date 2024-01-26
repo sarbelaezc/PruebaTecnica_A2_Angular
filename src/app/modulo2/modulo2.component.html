@@ -1,0 +1,7 @@
+<h2>Cocteles de la categoría {{ categoria }}</h2>
+<ul>
+  <li *ngFor="let coctel of cocteles">
+    {{ coctel.strDrink }} -
+    <img [src]="coctel.strDrinkThumb" alt="{{ coctel.strDrink }}" />
+  </li>
+</ul>
